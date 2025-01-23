@@ -146,11 +146,11 @@ const HeroSectionHeader = () => {
       />
       <div className="relative z-10 grid grid-cols-1 gap-4 md:grid-cols-2">
         <div className="flex items-center justify-center">
-          <div className="space-y-4 text-center">
-            <h1 className="pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#ffd319] via-[#ff2975] to-[#8c1eff] bg-clip-text text-center text-7xl font-bold leading-none tracking-tighter text-transparent">
+          <div className="space-y-4 text-center p-5">
+            <h1 className="pointer-events-none z-10 whitespace-pre-wrap bg-gradient-to-b from-[#161837] via-[#2682cd] to-[#9475b5] bg-clip-text text-center text-5xl sm:text-7xl font-bold leading-none tracking-tighter text-transparent">
               DoubtSolver
             </h1>
-            <p className="text-center text-xl font-bold leading-none tracking-tighter">
+            <p className="text-center sm:text-xl font-bold leading-none tracking-tighter">
               Join a vibrant community of learners, mentors, and educators. Post
               your questions, share knowledge, and collaborate in real time to
               achieve academic success!
