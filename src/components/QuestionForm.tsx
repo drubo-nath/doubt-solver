@@ -194,7 +194,7 @@ const QuestionForm = ({ question }: { question?: Models.Document }) => {
         <Input
           id="title"
           name="title"
-          placeholder="e.g. Is there an R function for finding the index of an element in a vector?"
+          placeholder="e.g. can you help me to solve this question using Leibnitz Theorem?"
           type="text"
           value={formData.title}
           onChange={(e) =>
@@ -231,7 +231,6 @@ const QuestionForm = ({ question }: { question?: Models.Document }) => {
           id="image"
           name="image"
           accept="image/*"
-          placeholder="e.g. Is there an R function for finding the index of an element in a vector?"
           type="file"
           onChange={(e) => {
             const files = e.target.files;
@@ -257,7 +256,7 @@ const QuestionForm = ({ question }: { question?: Models.Document }) => {
             <Input
               id="tag"
               name="tag"
-              placeholder="e.g. (java c objective-c)"
+              placeholder="e.g. (Physics Chemistry Math)"
               type="text"
               value={tag}
               onChange={(e) => setTag(() => e.target.value)}
